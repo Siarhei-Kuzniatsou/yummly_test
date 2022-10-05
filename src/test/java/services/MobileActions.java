@@ -34,9 +34,7 @@ public class MobileActions {
 
     public static void swipe(Direction direction) {
         AppiumDriver<?> driver = DriverProvider.getDriver();
-        int height = driver.manage().window().getSize().getHeight();
-        int width = driver.manage().window().getSize().getWidth();
-        scroll(new Point(height / 2, width / 2), direction);
+        scroll(new Point(driver.manage().window().getSize().getHeight(), driver.manage().window().getSize().getWidth()), direction);
     }
 
     public static void clickSearchButtonFromKeyboard() {

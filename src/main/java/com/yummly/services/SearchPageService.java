@@ -1,6 +1,6 @@
-package services;
+package com.yummly.services;
 
-import pages.SearchPage;
+import com.yummly.pages.SearchPage;
 
 public class SearchPageService extends BottomNavigationPanelService {
     private final static SearchPage searchPage = new SearchPage();

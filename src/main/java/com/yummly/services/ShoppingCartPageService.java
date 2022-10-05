@@ -1,6 +1,6 @@
-package services;
+package com.yummly.services;
 
-import pages.ShoppingCardPage;
+import com.yummly.pages.ShoppingCardPage;
 
 
 public class ShoppingCartPageService {

@@ -1,6 +1,6 @@
-package services;
+package com.yummly.services;
 
-import pages.WelcomePage;
+import com.yummly.pages.WelcomePage;
 
 public class WelcomePageService {
     private static final WelcomePage welcomePage = new WelcomePage();

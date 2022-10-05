@@ -1,6 +1,6 @@
-package services;
+package com.yummly.services;
 
-import pages.BottomNavigationPanel;
+import com.yummly.pages.BottomNavigationPanel;
 
 public class BottomNavigationPanelService {
     private static final BottomNavigationPanel panel = new BottomNavigationPanel();

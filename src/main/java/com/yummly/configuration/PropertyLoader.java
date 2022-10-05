@@ -1,4 +1,4 @@
-package configuration;
+package com.yummly.configuration;
 
 import java.io.IOException;
 import java.util.Properties;

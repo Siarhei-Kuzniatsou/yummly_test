@@ -1,9 +1,9 @@
-package tests;
+package com.yummly.tests;
 
-import entity.Ingredient;
+import com.yummly.entity.Ingredient;
+import com.yummly.services.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import services.*;
 
 public class CriticalPathTest extends TestCase {
 

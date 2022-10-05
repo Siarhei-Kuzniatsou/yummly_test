@@ -1,6 +1,6 @@
-package pages;
+package com.yummly.pages;
 
-import configuration.DriverProvider;
+import com.yummly.configuration.DriverProvider;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;

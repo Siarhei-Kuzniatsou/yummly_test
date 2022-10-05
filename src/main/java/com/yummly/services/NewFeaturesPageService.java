@@ -1,9 +1,9 @@
-package services;
+package com.yummly.services;
 
 import org.openqa.selenium.WebElement;
-import pages.NewFeaturesPage;
+import com.yummly.pages.NewFeaturesPage;
 
-import static services.MobileActions.Direction.LEFT;
+import static com.yummly.services.MobileActions.Direction.LEFT;
 
 public class NewFeaturesPageService {
     private final static NewFeaturesPage newFeaturesPage = new NewFeaturesPage();

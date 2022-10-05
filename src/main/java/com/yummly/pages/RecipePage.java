@@ -1,6 +1,6 @@
-package pages;
+package com.yummly.pages;
 
-import configuration.DriverProvider;
+import com.yummly.configuration.DriverProvider;
 import io.appium.java_client.MobileElement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;

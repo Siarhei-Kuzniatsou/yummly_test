@@ -1,4 +1,4 @@
-package entity;
+package com.yummly.entity;
 
 public class Ingredient {
     private final String description;

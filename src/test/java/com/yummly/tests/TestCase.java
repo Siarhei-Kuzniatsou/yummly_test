@@ -1,6 +1,6 @@
-package tests;
+package com.yummly.tests;
 
-import configuration.DriverProvider;
+import com.yummly.configuration.DriverProvider;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 

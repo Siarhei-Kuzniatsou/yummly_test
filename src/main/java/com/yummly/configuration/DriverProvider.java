@@ -1,4 +1,4 @@
-package configuration;
+package com.yummly.configuration;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import static configuration.PropertyLoader.Property.*;
+import static com.yummly.configuration.PropertyLoader.Property.*;
 
 public class DriverProvider {
 

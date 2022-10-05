@@ -1,9 +1,7 @@
-package pages;
+package com.yummly.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-
-import java.util.List;
 
 public class ShoppingCardPage extends AbstractPage {
     private final By alertCloseButton = By.id("com.yummly.android:id/alert_close_button");

@@ -1,13 +1,13 @@
-package services;
+package com.yummly.services;
 
-import entity.Ingredient;
+import com.yummly.entity.Ingredient;
 import io.appium.java_client.MobileElement;
 import org.openqa.selenium.WebElement;
-import pages.RecipePage;
+import com.yummly.pages.RecipePage;
 
 import java.util.List;
 
-import static services.MobileActions.Direction.*;
+import static com.yummly.services.MobileActions.Direction.*;
 
 public class RecipePageService {
     private static final RecipePage recipePage = new RecipePage();
